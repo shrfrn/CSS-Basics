@@ -1,0 +1,55 @@
+.box {
+    width: 300px;
+    height: 150px;
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    background-color: lightblue;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+
+/* box1 */
+
+.box1{
+    transition: 1s; /* Same as transition: all 1s; */
+}
+
+.box1:hover {
+    background-color:darkcyan;
+}
+
+/* box2 */
+
+.box2{
+    transition: 1s; /* Same as transition: all 1s; */
+}
+.box2:hover {
+    color: lightgray;
+    background-color:darkcyan;
+    font-size: 2rem;
+    width: 400px;
+}
+
+/* box3 */
+
+.box3{
+    /* This: */
+    transition: 
+        width 1s 1500ms ease-in, 
+        background-color 2s, 
+        font-size 3s;
+
+    /* ...is the same as this: */
+    transition-property: width, background-color, font-size;
+    transition-duration: 1s, 2s, 3s;
+    transition-delay: 1500ms, 0ms, 0ms;
+    transition-timing-function: ease-in, ease, ease;
+}
+.box3:hover {
+    color: lightgray;
+    background-color:darkcyan;
+    font-size: 2rem;
+    width: 400px;
+}

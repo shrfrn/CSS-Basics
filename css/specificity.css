@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    text-align: center;
+    cursor: crosshair;
+    padding: 40px;
+}
+
+/* #spe-ci-fi-ci-ty{
+    background-color: rgb(97, 132, 167);
+} */
+
+/* .spe-ci-fi-ci-ty:hover{
+    background-color: rgb(178, 122, 200);
+} */
+
+h1.spe-ci-fi-ci-ty {
+    background-color: rgb(175, 209, 65);
+}
+
+.spe-ci-fi-ci-ty{
+    background-color: darkseagreen;
+}
+
+h1{
+    padding: 40px;
+    background-color: lightblue;
+}

@@ -1,0 +1,15 @@
+.my-style {
+    font-size: 40px;
+}
+
+.container {
+    background-color: darkseagreen;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+}

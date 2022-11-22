@@ -1,0 +1,9 @@
+.bg-img{
+    padding: 20px;
+    
+    background-image: url(../img/dog.jpeg);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center top; */
+    /* background-attachment: fixed; */
+}
