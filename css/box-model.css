@@ -1,0 +1,39 @@
+/*
+  TODO: Play with box model properties on .main-content
+  TODO: Bring in the first 3 lines of the span styling
+  TODO: Bring in the next lines of the span styling 1 by 1
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-size: 22px;
+}
+.main-content {
+    background-color: lightblue;
+    max-width: 900px;
+    margin: 20px auto;
+    min-height: 750px;
+}
+span {
+    /* color: white;
+    background-color: rgba(241, 218, 42, 0.429);
+    
+    border: 1px solid red; */
+    
+    /* margin: 30px; */
+    /* padding: 10px; */
+    /* font-size: 2em; */
+    /* line-height: 2; */
+}
+.header{
+    height: 80px;
+    background-color: darkseagreen;
+}
+.footer{
+    height: 80px;
+    background-color: darkseagreen;
+}
