@@ -1,0 +1,55 @@
+/* TODO  Change color values into vars */
+/* TODO  Change body border width into var */
+
+.colors {
+    color: #0d1821ff;
+    color: #344966ff;
+    color: #b4cdedff;
+    color: #f0f4efff;
+    color: #bfcc94ff;
+}
+
+body {
+    height: calc(100vh - 2 * 10px);
+    border: 10px solid #cfebdfff;
+
+    background-color: #424b54ff;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(227, 189, 113);
+}
+
+table {
+    width: max-content;
+    margin: 120px auto;
+
+    border-spacing: 0;
+
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+thead tr {
+    border: 10px solid #000;
+    color: rgb(227, 189, 113);
+    font-size: 0.8em;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #9bc4cbff;
+    color: #9b2915ff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cfebdfff;
+    color: rgb(227, 189, 113);
+}
+
+td {
+    height: 40px;
+    padding: 5px 25px;
+}
