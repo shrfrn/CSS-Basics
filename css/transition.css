@@ -11,10 +11,6 @@
     --box-padding: 20px;
 }
 
-body {
-    box-sizing: border-box;
-}
-
 .box {
     width: var(--box-width);
     height: var(--box-height);
@@ -72,7 +68,6 @@ body {
 .box4:hover  {
     --box-width: 400px;
     background-color: darkseagreen;
-    width: 400px;
 }
 
 .box4:hover .circle {
