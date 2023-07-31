@@ -10,7 +10,6 @@
 }
 
 body {
-    height: calc(100vh - 2 * 10px);
     border: 10px solid #cfebdfff;
 
     background-color: #424b54ff;
@@ -52,6 +51,7 @@ tbody tr:nth-child(even) {
 td {
     height: 40px;
     padding: 5px 25px;
+    cursor: pointer;
     transition: 1s;
 }
 td:hover {
