@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header, footer {
+    height: 80px;
+
+    padding: 22px;
+    background-color: rgba(176, 196, 222, 0.467);
+    
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-container {
+    width: 70vw;
+    /* max-width: 900px; */
+    /* width: min(70vw, 900px); */
+
+    padding: 10px;
+    background-color: rgba(176, 196, 222, 0.467);
+    
+    margin: 30px auto;
+    /* min-height: calc(100vh - 160px - 60px); */
+}
+
+p {
+    width: 90%;
+
+    padding: 1em;
+    background-color: rgb(208, 208, 208);
+    margin-inline: auto;
+    
+    color: white;
+}
