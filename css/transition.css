@@ -36,10 +36,14 @@
 
 .box1{
     margin-top: 100px;
+    border: 0px solid orangered;
 }
 
 .box1:hover  {
     background-color: darkseagreen;
+    
+    /* margin-block-end: 100px; */
+    /* border-width: 30px; */
 }
 
 /* box2 */
