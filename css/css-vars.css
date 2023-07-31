@@ -54,6 +54,7 @@ td {
     cursor: pointer;
     transition: 1s;
 }
-td:hover {
+
+tbody td:hover {
     background-color: lightgray;
 }
