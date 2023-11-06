@@ -49,8 +49,9 @@
 /* box2 */
 
 .box2:hover .circle{
-    margin-left: 
-        calc(var(--box-width) - var(--circle-width) - var(--box-padding) * 2);
+    margin-left: 220px;
+    /* margin-left: 
+        calc(var(--box-width) - var(--circle-width) - var(--box-padding) * 2); */
 }
 
 /* box3 */

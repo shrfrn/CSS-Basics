@@ -10,9 +10,8 @@ body {
     width: 70%;
     max-width: 500px;
     
-    margin: 120px auto;
     padding: 30px;
-    transition: 600ms;
+    margin: 120px auto;
 }
 
 p {
@@ -25,9 +24,9 @@ span {
     background-color: rgba(241, 218, 42, 0.429);
     
     /* border: 1px solid red; */
-    /* padding: 108px; */
     /* margin: 90px; */
+    /* line-height: 3; */
+    /* padding: 0px; */
 
     /* font-size: 2em; */
-    /* line-height: 3; */
 }
