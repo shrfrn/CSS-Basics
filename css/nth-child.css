@@ -65,6 +65,14 @@ body {
     background-color: rgb(206, 151, 74);
 } */
 
+/* div:nth-last-child(3) {
+    background-color: rgb(206, 151, 74);
+} */
+
+/* only-child {
+    border: 1px solid darkred;
+} */
+
 /*
   :nth-of-type selects nth-of-tag-type, not nth-of-class-type
 */
