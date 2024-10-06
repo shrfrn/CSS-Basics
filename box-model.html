@@ -5,26 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model & Logical Properties</title>
-    <link rel="stylesheet" href="css/box-model-utils.css">
+    <link rel="stylesheet" href="css/size-display.css">
     <link rel="stylesheet" href="css/box-model.css">
 </head>
-<body onload="updateWidth()" onresize="updateWidth()">
-    <div class="main-content">
+<body onload="updateSize()" onresize="updateSize()">
+    <div class="main-content show-size">
         <p>Illum esse, vitae quia quo excepturi molestias porro veritatis cumque nostrum aliquid fuga consequatur excepturi nisi nemo voluptatum impedit. Illum esse, vitae quia quo excepturi molestias porro nam sapiente deserunt dignissimos recusandae praesentium mollitia saepe eum ab distinctio. <span>At hic beatae, iste explicabo id ipsum blanditiis cumque soluta atque, esse ad facilis eaque nesciunt ipsam obcaecati quis officiis iure tempore maiores molestiae.</span> Explicabo deleniti consequuntur, tempora cumque doloribus quod vel error porro in quaerat! Cumque vel maiores magnam excepturi nobis repellendus suscipit consequatur, ducimus culpa similique!</p>
         <div class="size"></div>
     </div>
     <div class="size"></div>
-
-    <script>
-        function updateWidth(){
-            var elWidths = document.querySelectorAll('.size')
-
-            for(var i = 0; i < elWidths.length; i++){
-                elWidths[i].innerText = 
-                    elWidths[i].parentElement.offsetWidth + 'px x ' +
-                    elWidths[i].parentElement.offsetHeight + 'px' 
-            }
-        }
-    </script>
+    <script src="js/size-display.js"></script>
 </body>
 </html>

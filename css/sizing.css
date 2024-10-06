@@ -9,25 +9,29 @@ body {
 }
 
 header, footer {
-    height: 80px;
+    height: 5vh;
 
-    padding: 22px;
     background-color: rgba(176, 196, 222, 0.467);
     
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
+    line-height: 5vh;
 }
 
-.main-container {
-    width: 70vw;
-    /* max-width: 900px; */
-    /* width: min(70vw, 900px); */
-
-    padding: 10px;
-    background-color: rgba(176, 196, 222, 0.467);
-    
+.wrapper {
+    /* min-height: calc(100vh - 10vh - 60px); */
     margin: 30px auto;
-    /* min-height: calc(100vh - 160px - 60px); */
+}
+
+.main-content {
+    width: 70vw;
+    /* max-width: 75ch; */
+    /* width: min(70vw, 75ch); */
+
+    border: 1px solid lightgray;
+    padding: 10px;
+    /* background-color: rgba(176, 196, 222, 0.467); */
+    margin: auto;
 }
 
 p {
