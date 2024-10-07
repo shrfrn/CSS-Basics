@@ -6,8 +6,9 @@ body {
 .main-content {
     background-color: lightgray;
     
-    width: 70%;
-    max-width: 500px;
+    /* width: 500px; */
+    /* width: 70%; */
+    /* max-width: 500px; */
     
     /* padding: 30px; */
     /* border: 15px solid rgb(163, 173, 184); */
